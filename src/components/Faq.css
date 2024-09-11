@@ -1,0 +1,62 @@
+.desni1 {
+    padding-right: 40px;
+    color: black;
+    margin-left: -100px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.desni1 p {
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.naslov {
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.naslov p {
+    font-size: 20px;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.wrapper {
+    background-color: #dedede;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.lijevi1 {
+    background-color: #dedede;
+    width: 27%;
+    margin-top: 40px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid #01b29e;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.horizontal {
+    height: 1px;
+    background-color: #01b29e;
+    border: none;
+}
+
+.lijevi1 ul {
+    font-size: 13px;
+    padding-top: 20px;
+    padding-left: 30px;
+    list-style:circle;
+}

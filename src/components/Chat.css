@@ -1,0 +1,9 @@
+.chat {
+    height: fit-content;
+    margin-top: 500px;
+    margin-left: 1200px;
+    border: 2px solid #01b29e !important;
+    color: #01b29e;
+    z-index: 999;
+    position: fixed;
+}

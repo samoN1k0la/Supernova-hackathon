@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.box {
+    width: 250px;
+    height: 130px;
+    background-color: gray;
+}
+
+.box div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.calendar {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #d4f7d4;
+    padding: 10px;
+    border-radius: 3px;
+}

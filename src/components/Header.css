@@ -1,0 +1,50 @@
+.header {
+    height: 85px;
+    width: auto;
+    background-color: #039f83;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.desni {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 35px;
+    padding-right: 40px;
+    color: white;
+}
+
+.razred {
+    text-align: center;
+}
+
+.smjer, .skola {
+    font-size: 11px;
+}
+
+.notifikacije_ikonica {
+    font-size: 20px;
+}
+
+.skolska_godina {
+    font-size: 13px;
+    display: flex;
+}
+
+.iokonica {
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.ikonica {
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+.opis div {
+    display: flex;
+}

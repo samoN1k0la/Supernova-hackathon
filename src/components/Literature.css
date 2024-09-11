@@ -1,0 +1,27 @@
+.accordion {
+    color: #01b29e;
+    background-color: #dedede;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.accordion-item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.accordion:active {
+    color: white;
+    background-color: #01b29e;
+}
+
+.spacer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+}

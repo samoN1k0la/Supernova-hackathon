@@ -1,0 +1,22 @@
+.calendarWrapper {
+    display: flex;
+}
+
+.addNotice {
+    margin-top: 100px;
+    margin-right: 400px;
+    font-size: 4em;
+    color: #01b29e;
+}
+
+.napomena {
+    width: 400px;
+    height: 150px;
+    border: 2px solid #01b29e;
+    border-radius: 15px;
+}
+
+.noticeWrapper {
+    margin-left: -100px;
+    margin-right: 100px;
+}

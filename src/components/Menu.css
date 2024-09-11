@@ -1,0 +1,50 @@
+.menuContainer {
+    position: sticky;
+    margin-top: 70px;
+    margin-left: -197px;
+    height: calc(100vh - 85px);
+    width: 300px;
+    background-color: #dedede;
+    color: #01b29e;
+    font-weight: bold;
+    z-index: 999;
+    padding: 10px;
+}
+
+.menuAnimationLeft {
+    animation: transitionLeft 1s;
+}
+
+.menuAnimationRight {
+    animation: transitionRight 1s;
+}
+
+.menuContainer ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.menuContainer ul li:hover {
+    color: white;
+    background-color: #01b29e;
+}
+
+@keyframes transitionLeft {
+    from {
+        width: 0;
+    }
+    to {
+        width: 300px;
+    }
+}
+
+@keyframes transitionRight {
+    from {
+        width: 300px;
+    }
+    to {
+        width: 0;
+        
+    }
+}
